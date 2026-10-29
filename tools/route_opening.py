@@ -1,0 +1,20 @@
+from grid import grid
+for i in range(8): e.run(150, START if (i%2 and i>4) else 0)
+e.cmd('save title','SAVED')
+e.press(START,4,60); e.press(START,4,10); e.run(400)
+e.cmd('save menu','SAVED')
+e.run(4,C); e.run(600)
+e.press(C,4,120)
+for i in range(12): e.press(C,4,90)
+for i in range(16): e.press(START if i<3 else C,4,120)
+for i in range(16): e.run(600)
+e.cmd('save premovie_end','SAVED')
+for i in range(14): e.run(450, C if i%2 else 0)
+e.cmd('save scene','SAVED')
+e.shot('../shots/k_scene.png')
+fs=[]
+for i in range(30):
+    e.press(C,4,100)
+    if i%3==2: f=f'../shots/k{i//3:02d}.png'; e.shot(f); fs.append(f)
+e.cmd('save strat','SAVED')
+grid(fs,'../shots/kg.png')

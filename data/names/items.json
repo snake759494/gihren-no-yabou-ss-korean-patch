@@ -1,0 +1,3187 @@
+[
+{
+"file": "CHAR_000_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "49d535f599ab"
+},
+{
+"file": "CHAR_001_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "44e0b3c122fe"
+},
+{
+"file": "CHAR_002_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3b4df00d198e"
+},
+{
+"file": "CHAR_003_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "dcafbbd9ed57"
+},
+{
+"file": "CHAR_004_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "c8a5289e94b3"
+},
+{
+"file": "CHAR_005_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fe6952e23ee6"
+},
+{
+"file": "CHAR_006_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a88cd0e5b7ef"
+},
+{
+"file": "CHAR_007_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "d12c5f08a22e"
+},
+{
+"file": "CHAR_008_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3147cf1abc1a"
+},
+{
+"file": "CHAR_009_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "19c8ca375e93"
+},
+{
+"file": "CHAR_010_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "cef4f3c039b5"
+},
+{
+"file": "CHAR_011_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "b9be4f4bdbb1"
+},
+{
+"file": "CHAR_012_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "6912ed6837e7"
+},
+{
+"file": "CHAR_013_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "0c0bf6f5ef15"
+},
+{
+"file": "CHAR_014_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "c22b78828085"
+},
+{
+"file": "CHAR_015_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "1a449b3b9a0e"
+},
+{
+"file": "CHAR_016_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "312665331113"
+},
+{
+"file": "CHAR_017_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "ce27186c577e"
+},
+{
+"file": "CHAR_018_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "97b2cc9613d7"
+},
+{
+"file": "CHAR_019_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "f831c297022d"
+},
+{
+"file": "CHAR_020_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "1fab6bab3a89"
+},
+{
+"file": "CHAR_021_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "1d737cb9d81c"
+},
+{
+"file": "CHAR_022_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "77bb67c814de"
+},
+{
+"file": "CHAR_023_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "879468256807"
+},
+{
+"file": "CHAR_024_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "65efe8a9d040"
+},
+{
+"file": "CHAR_025_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "c4dedc553b31"
+},
+{
+"file": "CHAR_026_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "eee6288a3346"
+},
+{
+"file": "CHAR_027_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "bd1ff8ec49d1"
+},
+{
+"file": "CHAR_028_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3136de5ea107"
+},
+{
+"file": "CHAR_029_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "7e207104d01b"
+},
+{
+"file": "CHAR_030_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "9dabe7fe900e"
+},
+{
+"file": "CHAR_031_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a06792b6fb3a"
+},
+{
+"file": "CHAR_032_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "bf6584e0c2f0"
+},
+{
+"file": "CHAR_033_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "c87d601cf2df"
+},
+{
+"file": "CHAR_034_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "0a58f9e0fcc5"
+},
+{
+"file": "CHAR_035_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "18f6c9f9354d"
+},
+{
+"file": "CHAR_036_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "aed4b4b1158e"
+},
+{
+"file": "CHAR_037_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "7775ef0d7d9f"
+},
+{
+"file": "CHAR_038_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "9c5b62da2ef9"
+},
+{
+"file": "CHAR_039_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "77b0c00c1f6a"
+},
+{
+"file": "CHAR_040_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "b2b82b7082eb"
+},
+{
+"file": "CHAR_041_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "20afc2fdef74"
+},
+{
+"file": "CHAR_042_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "d3c515cc940d"
+},
+{
+"file": "CHAR_043_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "7bb130de4c81"
+},
+{
+"file": "CHAR_044_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "54084dbbb7cb"
+},
+{
+"file": "CHAR_045_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "e968eaa33803"
+},
+{
+"file": "CHAR_046_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "05a658cf7721"
+},
+{
+"file": "CHAR_047_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "934589e03cdc"
+},
+{
+"file": "CHAR_048_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "0f5fa67ded5e"
+},
+{
+"file": "CHAR_049_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "ea16404e7e2e"
+},
+{
+"file": "CHAR_050_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "6f79066a32b8"
+},
+{
+"file": "CHAR_051_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a5ddddaa8215"
+},
+{
+"file": "CHAR_052_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3ac9b5aa7241"
+},
+{
+"file": "CHAR_053_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "6c64ea7aa3af"
+},
+{
+"file": "CHAR_054_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "76ebf7a243f9"
+},
+{
+"file": "CHAR_055_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "ffe3f5450e7e"
+},
+{
+"file": "CHAR_056_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "7156703e518d"
+},
+{
+"file": "CHAR_057_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "ac148e44d9cb"
+},
+{
+"file": "CHAR_058_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "6694d3d3afad"
+},
+{
+"file": "CHAR_059_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "b27f49b2df2c"
+},
+{
+"file": "CHAR_060_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "f0c85b0b95ba"
+},
+{
+"file": "CHAR_061_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "4647bc3abb03"
+},
+{
+"file": "CHAR_062_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "d1097dfa2116"
+},
+{
+"file": "CHAR_063_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "4c7a2ed88418"
+},
+{
+"file": "CHAR_064_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3d30efc5a166"
+},
+{
+"file": "CHAR_065_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "dd20dd87900a"
+},
+{
+"file": "CHAR_066_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "79fc76414990"
+},
+{
+"file": "CHAR_067_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "4f4622f430ce"
+},
+{
+"file": "CHAR_068_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "e140ab9d70cf"
+},
+{
+"file": "CHAR_069_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "eb3d3c7081c1"
+},
+{
+"file": "CHAR_070_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "d5ef123e2ce8"
+},
+{
+"file": "CHAR_071_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a0a9e826d6ce"
+},
+{
+"file": "CHAR_072_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "5ea819f80177"
+},
+{
+"file": "CHAR_073_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "8cc733d94b9b"
+},
+{
+"file": "CHAR_074_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "0c9f9466c52d"
+},
+{
+"file": "CHAR_075_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "b33183006e2a"
+},
+{
+"file": "CHAR_076_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a84aed636fe4"
+},
+{
+"file": "CHAR_077_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "78999689ef2b"
+},
+{
+"file": "CHAR_078_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "273cbc2111c7"
+},
+{
+"file": "CHAR_079_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "b4f48e3c4f36"
+},
+{
+"file": "CHAR_080_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "9df95e3d7b40"
+},
+{
+"file": "CHAR_081_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fba545c501e4"
+},
+{
+"file": "CHAR_082_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "3313c9dac340"
+},
+{
+"file": "CHAR_083_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "4f2d8841f3f9"
+},
+{
+"file": "CHAR_084_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "ec546f7b810d"
+},
+{
+"file": "CHAR_085_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "a511e37da288"
+},
+{
+"file": "CHAR_086_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "f831c297022d"
+},
+{
+"file": "CHAR_087_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "1fab6bab3a89"
+},
+{
+"file": "CHAR_088_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "1d737cb9d81c"
+},
+{
+"file": "CHAR_089_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_090_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_091_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_092_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_093_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_094_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_095_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_096_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_097_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_098_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_099_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_100_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_101_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_102_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_103_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_104_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_105_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_106_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "CHAR_107_0.bin",
+"kid": 2,
+"w": 128,
+"h": 23,
+"hash": "fd9d6497b20c"
+},
+{
+"file": "HEKI_000_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e84b96d3d3f6"
+},
+{
+"file": "HEKI_001_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a9361a61bcf6"
+},
+{
+"file": "HEKI_002_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6ee27f905445"
+},
+{
+"file": "HEKI_003_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "046b1246df1b"
+},
+{
+"file": "HEKI_004_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ab63af39a1b4"
+},
+{
+"file": "HEKI_005_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9a86210ecc4c"
+},
+{
+"file": "HEKI_006_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "cfda420652dd"
+},
+{
+"file": "HEKI_007_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "720f0ba32dd3"
+},
+{
+"file": "HEKI_008_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "173250428f6a"
+},
+{
+"file": "HEKI_009_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a42913a01a4f"
+},
+{
+"file": "HEKI_010_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "105a66b5fdbb"
+},
+{
+"file": "HEKI_011_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "caf06c64c15f"
+},
+{
+"file": "HEKI_012_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1a493aa15817"
+},
+{
+"file": "HEKI_013_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ef0125570c4d"
+},
+{
+"file": "HEKI_014_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d11686b898b4"
+},
+{
+"file": "HEKI_015_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8e521143d15d"
+},
+{
+"file": "HEKI_016_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6e7fdecec266"
+},
+{
+"file": "HEKI_017_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "50a4e439e04b"
+},
+{
+"file": "HEKI_018_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "fe485973da90"
+},
+{
+"file": "HEKI_019_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ddbe1e40cca6"
+},
+{
+"file": "HEKI_020_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "55761c28cc07"
+},
+{
+"file": "HEKI_021_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8c10ff9f9a62"
+},
+{
+"file": "HEKI_022_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "27752c31a8be"
+},
+{
+"file": "HEKI_023_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "2f52da5fb32f"
+},
+{
+"file": "HEKI_024_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8c6f2ea246a9"
+},
+{
+"file": "HEKI_025_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "91cf8ec83a57"
+},
+{
+"file": "HEKI_026_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "f1035fcfeb36"
+},
+{
+"file": "HEKI_027_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6422c777594d"
+},
+{
+"file": "HEKI_028_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6426b8f11baf"
+},
+{
+"file": "HEKI_029_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "21f2b7844ad6"
+},
+{
+"file": "HEKI_030_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6e2ad3c6db46"
+},
+{
+"file": "HEKI_031_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "730f4d44d12b"
+},
+{
+"file": "HEKI_032_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "50aa4d508b25"
+},
+{
+"file": "HEKI_033_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "7e8709b824c5"
+},
+{
+"file": "HEKI_034_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e02b013468b8"
+},
+{
+"file": "HEKI_035_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c7496ce4f2f8"
+},
+{
+"file": "HEKI_036_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6766b73096fe"
+},
+{
+"file": "HEKI_037_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d57c73156976"
+},
+{
+"file": "HEKI_038_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3ca5d85e279d"
+},
+{
+"file": "HEKI_039_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "24ba42963f41"
+},
+{
+"file": "HEKI_040_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "caaada3915cc"
+},
+{
+"file": "HEKI_041_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "97010fc180c9"
+},
+{
+"file": "HEKI_042_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "dd95039a7534"
+},
+{
+"file": "HEKI_043_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "50204d107808"
+},
+{
+"file": "HEKI_044_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1d38c70a41d4"
+},
+{
+"file": "HEKI_045_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d812e75746e0"
+},
+{
+"file": "HEKI_046_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "abe0c16080c8"
+},
+{
+"file": "HEKI_047_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a5871118345a"
+},
+{
+"file": "HEKI_048_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c9649b65dc54"
+},
+{
+"file": "HEKI_049_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5c979f9179f2"
+},
+{
+"file": "HEKI_050_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "db5f9975a5e1"
+},
+{
+"file": "HEKI_051_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "4c50a09f936b"
+},
+{
+"file": "HEKI_052_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1b09f70e7516"
+},
+{
+"file": "HEKI_053_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "54791ca6622a"
+},
+{
+"file": "HEKI_054_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c5744be3e09d"
+},
+{
+"file": "HEKI_055_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a2485818b28f"
+},
+{
+"file": "HEKI_056_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "30ec0bb6b1c6"
+},
+{
+"file": "HEKI_057_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "193bcf61bece"
+},
+{
+"file": "HEKI_058_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "647181b94739"
+},
+{
+"file": "HEKI_059_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "74aafc569872"
+},
+{
+"file": "HEKI_060_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "05f346e286e6"
+},
+{
+"file": "HEKI_061_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "25c994a59794"
+},
+{
+"file": "HEKI_062_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "12f5b2349321"
+},
+{
+"file": "HEKI_063_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3dae9f9695fe"
+},
+{
+"file": "HEKI_064_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8b5179a2830b"
+},
+{
+"file": "HEKI_065_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d001938eaf07"
+},
+{
+"file": "HEKI_066_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5274836ef2ce"
+},
+{
+"file": "HEKI_067_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "844f343c7edd"
+},
+{
+"file": "HEKI_068_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3d028e10d3d4"
+},
+{
+"file": "HEKI_069_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "35343f3fa09f"
+},
+{
+"file": "HEKI_070_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3ed58f7d97a5"
+},
+{
+"file": "HEKI_071_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "2a5966484f96"
+},
+{
+"file": "HEKI_072_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9d6e5a33e475"
+},
+{
+"file": "HEKI_073_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "0cf63ed9d6bc"
+},
+{
+"file": "HEKI_074_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e28250931d91"
+},
+{
+"file": "HEKI_075_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e9f625d9007a"
+},
+{
+"file": "HEKI_076_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "aec421b63b91"
+},
+{
+"file": "HEKI_077_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ca5d073cadfe"
+},
+{
+"file": "HEKI_078_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9e20adfa361f"
+},
+{
+"file": "HEKI_079_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5dd7dc539c08"
+},
+{
+"file": "HEKI_080_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8ebcf73b8024"
+},
+{
+"file": "HEKI_081_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "7d1fa27b3a34"
+},
+{
+"file": "HEKI_082_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ccd3c5cececc"
+},
+{
+"file": "HEKI_083_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e939be8bd7a7"
+},
+{
+"file": "HEKI_084_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5023432e2d9a"
+},
+{
+"file": "HEKI_085_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3ac9ed73141f"
+},
+{
+"file": "HEKI_086_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d37ce1c9cfeb"
+},
+{
+"file": "HEKI_087_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "78c20c1cb4b6"
+},
+{
+"file": "HEKI_088_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "03fd731595df"
+},
+{
+"file": "HEKI_089_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "00c00cd1e02d"
+},
+{
+"file": "HEKI_090_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e1d47babb849"
+},
+{
+"file": "HEKI_091_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ecf7cb6a56f9"
+},
+{
+"file": "HEKI_092_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "235b7bc60e46"
+},
+{
+"file": "HEKI_093_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "287b3a17c5e5"
+},
+{
+"file": "HEKI_094_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1cac5c49c2cf"
+},
+{
+"file": "HEKI_095_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "567959aad8cd"
+},
+{
+"file": "HEKI_096_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "eb18363d15fd"
+},
+{
+"file": "HEKI_097_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "acfbabf24018"
+},
+{
+"file": "HEKI_098_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5dc4950d02d9"
+},
+{
+"file": "HEKI_099_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a5a9d2fed856"
+},
+{
+"file": "HEKI_100_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3780673105d7"
+},
+{
+"file": "HEKI_101_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ffe2246a5604"
+},
+{
+"file": "HEKI_102_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "34c9c0cdc379"
+},
+{
+"file": "HEKI_103_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c7f7134abbac"
+},
+{
+"file": "HEKI_104_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "679cc9d99545"
+},
+{
+"file": "HEKI_105_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "2ab64956d356"
+},
+{
+"file": "HEKI_106_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e33e3720cd3b"
+},
+{
+"file": "HEKI_107_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "714a7dbe8256"
+},
+{
+"file": "HEKI_108_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "22d85a63382d"
+},
+{
+"file": "HEKI_109_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c822e76a292b"
+},
+{
+"file": "HEKI_110_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1dc70fbf2928"
+},
+{
+"file": "HEKI_111_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "68e14f41d804"
+},
+{
+"file": "HEKI_112_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a0f2ee8285e7"
+},
+{
+"file": "HEKI_113_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "fab62eccf0f6"
+},
+{
+"file": "HEKI_114_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8f81832e2ef1"
+},
+{
+"file": "HEKI_115_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a5b7d6b955b9"
+},
+{
+"file": "HEKI_116_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "7cc3062455dc"
+},
+{
+"file": "HEKI_117_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "30fb4edaae4d"
+},
+{
+"file": "HEKI_118_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "26e0aebf0440"
+},
+{
+"file": "HEKI_119_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a6d3245633ea"
+},
+{
+"file": "HEKI_120_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "f9c4cba9b445"
+},
+{
+"file": "HEKI_121_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "fb90abb3a03a"
+},
+{
+"file": "HEKI_122_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c12070bdebfe"
+},
+{
+"file": "HEKI_123_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "783a4ba413e5"
+},
+{
+"file": "HEKI_124_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a70c20d08143"
+},
+{
+"file": "HEKI_125_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "697b36591435"
+},
+{
+"file": "HEKI_126_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "2389ec5388c5"
+},
+{
+"file": "HEKI_127_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "50b1453d3259"
+},
+{
+"file": "HEKI_128_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "53e4e4328e3d"
+},
+{
+"file": "HEKI_129_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5af1d6d99443"
+},
+{
+"file": "HEKI_130_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "15a9453a2180"
+},
+{
+"file": "HEKI_131_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "f86398616f07"
+},
+{
+"file": "HEKI_132_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "cfb5ffa83ab0"
+},
+{
+"file": "HEKI_133_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e5da8961d013"
+},
+{
+"file": "HEKI_134_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3583fb90b2fa"
+},
+{
+"file": "HEKI_135_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "e7292e9d61b0"
+},
+{
+"file": "HEKI_136_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "b16a4ceca838"
+},
+{
+"file": "HEKI_137_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c7734ecb10e3"
+},
+{
+"file": "HEKI_138_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "383f856da7d0"
+},
+{
+"file": "HEKI_139_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ba176865f1c5"
+},
+{
+"file": "HEKI_140_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "2932c8a4de3c"
+},
+{
+"file": "HEKI_141_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "4c75dde60dee"
+},
+{
+"file": "HEKI_142_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "25cb6da9c424"
+},
+{
+"file": "HEKI_143_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "39c04ce735ef"
+},
+{
+"file": "HEKI_144_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a6931e19869a"
+},
+{
+"file": "HEKI_145_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "ab227a098624"
+},
+{
+"file": "HEKI_146_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "31b0cd63cda0"
+},
+{
+"file": "HEKI_147_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9ad95e7424de"
+},
+{
+"file": "HEKI_148_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9fd488fd4921"
+},
+{
+"file": "HEKI_149_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "4219e94bb6a3"
+},
+{
+"file": "HEKI_150_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d763d08a2edc"
+},
+{
+"file": "HEKI_151_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "5bcf05957c22"
+},
+{
+"file": "HEKI_152_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "1c609e847c1e"
+},
+{
+"file": "HEKI_153_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "8e2ff63ae9d9"
+},
+{
+"file": "HEKI_154_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "04a301d74430"
+},
+{
+"file": "HEKI_155_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "fcaf34f85d3a"
+},
+{
+"file": "HEKI_156_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "3f4a8acd9dff"
+},
+{
+"file": "HEKI_157_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "9b512144866c"
+},
+{
+"file": "HEKI_158_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "4b5e383e2694"
+},
+{
+"file": "HEKI_159_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c134d98b4dd2"
+},
+{
+"file": "HEKI_160_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "7146bd388610"
+},
+{
+"file": "HEKI_161_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "d9db3648a42c"
+},
+{
+"file": "HEKI_162_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "a3c51b1bfe73"
+},
+{
+"file": "HEKI_163_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "0382735ae015"
+},
+{
+"file": "HEKI_164_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "118da74261a0"
+},
+{
+"file": "HEKI_165_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c1af36dc511b"
+},
+{
+"file": "HEKI_166_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "17507276fc49"
+},
+{
+"file": "HEKI_167_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "6f4a16f3d5f0"
+},
+{
+"file": "HEKI_168_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "c26da54c687a"
+},
+{
+"file": "HEKI_169_0.bin",
+"kid": 2,
+"w": 192,
+"h": 23,
+"hash": "460f45f68801"
+},
+{
+"file": "KOKKI0_0.bin",
+"kid": 3,
+"w": 184,
+"h": 49,
+"hash": "b20a03f8f24a"
+},
+{
+"file": "KOKKI0_0.bin",
+"kid": 4,
+"w": 8,
+"h": 3,
+"hash": "0ba478be25ac"
+},
+{
+"file": "KOKKI0_0.bin",
+"kid": 5,
+"w": 8,
+"h": 5,
+"hash": "5dd797122397"
+},
+{
+"file": "KOKKI1_0.bin",
+"kid": 3,
+"w": 184,
+"h": 49,
+"hash": "b20a03f8f24a"
+},
+{
+"file": "KOKKI1_0.bin",
+"kid": 4,
+"w": 8,
+"h": 3,
+"hash": "0ba478be25ac"
+},
+{
+"file": "KOKKI1_0.bin",
+"kid": 5,
+"w": 8,
+"h": 5,
+"hash": "5dd797122397"
+},
+{
+"file": "KOKKI2_0.bin",
+"kid": 3,
+"w": 184,
+"h": 49,
+"hash": "b20a03f8f24a"
+},
+{
+"file": "KOKKI2_0.bin",
+"kid": 4,
+"w": 8,
+"h": 3,
+"hash": "0ba478be25ac"
+},
+{
+"file": "KOKKI2_0.bin",
+"kid": 5,
+"w": 8,
+"h": 5,
+"hash": "5dd797122397"
+},
+{
+"file": "KOKKI3_0.bin",
+"kid": 3,
+"w": 184,
+"h": 49,
+"hash": "b20a03f8f24a"
+},
+{
+"file": "KOKKI3_0.bin",
+"kid": 4,
+"w": 8,
+"h": 3,
+"hash": "0ba478be25ac"
+},
+{
+"file": "KOKKI3_0.bin",
+"kid": 5,
+"w": 8,
+"h": 5,
+"hash": "5dd797122397"
+},
+{
+"file": "KOKKI4_0.bin",
+"kid": 3,
+"w": 184,
+"h": 49,
+"hash": "b20a03f8f24a"
+},
+{
+"file": "KOKKI4_0.bin",
+"kid": 4,
+"w": 8,
+"h": 3,
+"hash": "0ba478be25ac"
+},
+{
+"file": "KOKKI4_0.bin",
+"kid": 5,
+"w": 8,
+"h": 5,
+"hash": "5dd797122397"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP0_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP1_Z2_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP1_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP2_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP3_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP4_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP5_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "fcce84dc0b26"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP6_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP7_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP8_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAP9_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPA_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPB_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPC_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPD_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPE_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPF_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 7,
+"w": 72,
+"h": 18,
+"hash": "441a2d8bd719"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 8,
+"w": 80,
+"h": 18,
+"hash": "fd30c51d2332"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 9,
+"w": 96,
+"h": 18,
+"hash": "c050fff85bf8"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 10,
+"w": 88,
+"h": 18,
+"hash": "7448268d515f"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 11,
+"w": 88,
+"h": 18,
+"hash": "66092cf4828d"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 12,
+"w": 48,
+"h": 18,
+"hash": "5da3e73b662e"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 13,
+"w": 72,
+"h": 19,
+"hash": "e96fb9679898"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 14,
+"w": 72,
+"h": 24,
+"hash": "f8fe0b77320a"
+},
+{
+"file": "MAPG_Z_0.bin",
+"kid": 15,
+"w": 40,
+"h": 24,
+"hash": "2f96b6c4a582"
+}
+]

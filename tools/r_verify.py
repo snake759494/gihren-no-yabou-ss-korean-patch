@@ -1,0 +1,10 @@
+exec(open('r_strat.py',encoding='utf8').read())
+for i in range(60): e.press(C,4,60)
+e.press(B,4,30)
+# end strategy phase
+e.press(UP,4,20); e.press(C,4,60); e.press(C,4,10)
+for i in range(8): e.run(15); e.shot(f'../shots/v_t{i}.png')
+e.run(300); e.cmd('save act','SAVED')
+e.press(START,4,40); e.press(DOWN,4,20); e.press(C,4,90); e.shot('../shots/v_map.png'); e.press(B,4,60)
+e.press(START,4,40); [e.press(DOWN,4,15) for i in range(3)]; e.press(C,4,40); e.press(C,4,10)
+for i in range(8): e.run(15); e.shot(f'../shots/v_e{i}.png')

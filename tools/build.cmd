@@ -1,0 +1,6 @@
+@echo off
+call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat" >nul
+set N=D:\ss\snatcher_ymir_ninja
+set S=D:\ss\snatcher_ymir_source
+cd /d D:\ss\±â·»ÀÇ¾ß¸Á\work\tools
+cl.exe -DNOMINMAX -DSTB_VORBIS_HEADER_ONLY -DTOML_EXCEPTIONS=0 -DWIN32_LEAN_AND_MEAN -DYMIR_PLATFORM_HAS_DIRECT3D=0 -DYMIR_PLATFORM_HAS_METAL=0 -DYMIR_PLATFORM_HAS_VULKAN=0 -DYmir_AVX2=1 -DYmir_DEV_ASSERTIONS=0 -DYmir_DEV_BUILD=1 -DYmir_ENABLE_DEVLOG=1 -DYmir_EXTRA_INLINING=0 -DYmir_FF_HOST_CD_DRIVES=0 -DYmir_core_STATIC_DEFINE -I%S%\libs\ymir-core\include -I%N%\libs\ymir-core\include -I%N%\_cmrc\include -I%S%\vendor\fmt\include -I%S%\vendor\mio\include -I%S%\vendor\concurrentqueue\concurrentqueue -I%S%\vendor\xxHash\xxHash -I%S%\vendor\libchdr\libchdr\include /DWIN32 /D_WINDOWS /EHsc /O2 /DNDEBUG -std:c++20 -MD /arch:AVX2 /utf-8 -nologo gverify.cpp /Fe:gverify.exe /link %N%\libs\ymir-core\ymir-core.lib %N%\libs\ymir-core\ymir-core-shaders.lib %N%\vendor\fmt\fmt.lib %N%\vendor\xxHash\xxHash.lib %N%\vendor\libchdr\chdr-static.lib %N%\vendor\libchdr\libchdr\deps\lzma-25.01\chdr-lzma.lib %N%\vendor\libchdr\libchdr\deps\zstd-1.5.7\zstd.lib %N%\vendor\libchdr\libchdr\deps\miniz-3.1.1\miniz.lib synchronization.lib d3d12.lib dxgi.lib dxguid.lib kernel32.lib user32.lib advapi32.lib ole32.lib shell32.lib

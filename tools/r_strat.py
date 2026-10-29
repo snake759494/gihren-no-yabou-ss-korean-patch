@@ -1,0 +1,7 @@
+exec(open('route_bisect.py',encoding='utf8').read().split('fs=[]')[0])
+print('faction',to_faction()); e.run(60)
+e.press(C,4,10); e.run(300)
+for i in range(3): e.press(START,4,120)
+for i in range(22): e.run(600, START if i%2 else 0)
+for i in range(40): e.press(C,4,60)
+e.cmd('save strat','SAVED'); e.shot('../shots/s0.png')
