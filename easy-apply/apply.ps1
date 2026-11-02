@@ -1,5 +1,5 @@
 ﻿#requires -version 3
-# 기렌의 야망 (SS) 한글패치 v1.0.0 적용 엔진
+# 기렌의 야망 (SS) 한글패치 v1.0.1 적용 엔진
 # 이 스크립트는 "한글패치 적용하기.bat" 이 자동으로 실행합니다.
 # (직접 실행하려면 원본 Track 1 .bin 을 인자로 넘기거나 같은 폴더에 두세요.)
 
@@ -7,15 +7,15 @@ $ErrorActionPreference = 'Stop'
 
 $root   = $PSScriptRoot
 $xdelta = Join-Path $root 'xdelta.exe'
-$patch  = Join-Path $root 'gihren-no-yabou-ss-korean-v1.0.0.xdelta'
+$patch  = Join-Path $root 'gihren-no-yabou-ss-korean-v1.0.1.xdelta'
 
 $T1NAME  = 'Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 1).bin'
-$OUTNAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.0 (Track 1).bin'
-$CUENAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.0.cue'
+$OUTNAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.1 (Track 1).bin'
+$CUENAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.1.cue'
 
 $EXP_SRC   = 'a27adec617d05787bbf6fd440176b71cc303d2edb40f1b5527bedbf044de7899'
-$EXP_OUT   = '7a49ae62b4cf2eae530a01d3edf748c273cefaec1f6d10303e908349a5442d9c'
-$EXP_PATCH = '788b0d85a75e7108e9c5dc137c04ac816d3ac349542d53dc693289cba2f9f9c1'
+$EXP_OUT   = '831d4a50cdc4eb121fd04595494777bf9ed20426e9cc1b55d8a5c58570fc6dc4'
+$EXP_PATCH = '7ee1611a76de9315928adc6e3168bf22f689d91e1b4c9b610751e808b49924b9'
 $EXP_TRK2  = 'e0975d00e307925b56cbee433c7844edc90f17fe3cf8bd4057ec4788a858a3ec'
 
 function Get-Sha256([string]$p) {
@@ -35,12 +35,12 @@ function Fail([string]$msg) {
 try {
     Write-Host ''
     Write-Host '============================================================'
-    Write-Host '   기렌의 야망 (SS) 한글패치 v1.0.0'
+    Write-Host '   기렌의 야망 (SS) 한글패치 v1.0.1'
     Write-Host '============================================================'
     Write-Host ''
 
     if (-not (Test-Path -LiteralPath $xdelta)) { Fail "xdelta.exe 가 없습니다. 압축을 푼 폴더의 파일을 모두 한곳에 두세요." }
-    if (-not (Test-Path -LiteralPath $patch))  { Fail "gihren-no-yabou-ss-korean-v1.0.0.xdelta 가 없습니다." }
+    if (-not (Test-Path -LiteralPath $patch))  { Fail "gihren-no-yabou-ss-korean-v1.0.1.xdelta 가 없습니다." }
 
     # --- 원본 Track 1 찾기: 드래그앤드롭 인자 > 스크립트 폴더 > 현재 폴더 ---
     $src = $null
@@ -103,7 +103,7 @@ try {
     }
 
     if ($needPatch) {
-        Write-Host '  [4/5] 한글패치 적용 중... (1~2분 소요, 원본보다 약 3.1MB 커집니다)'
+        Write-Host '  [4/5] 한글패치 적용 중... (1~2분 소요, 원본보다 약 3.0MB 커집니다)'
         & $xdelta -d -f -s $src $patch $out
         if ($LASTEXITCODE -ne 0) {
             if (Test-Path -LiteralPath $out) { Remove-Item -LiteralPath $out -Force }

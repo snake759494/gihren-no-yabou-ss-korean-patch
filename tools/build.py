@@ -102,7 +102,7 @@ def build_ui(changed,report):
         if dec in cfg_lb:
             c=cfg_lb[dec]
             for k,t in c['items'].items():
-                kid=root.kids[int(k)]; kid.data=enc_lab(kid.data,ui_label(dec_lab(kid.data),t,c['align']))
+                kid=root.kids[int(k)]; kid.data=enc_lab(kid.data,ui_label(dec_lab(kid.data),t,c['align'],ink=c.get('ink')))
         if dec in cfg_msg:
             for k,v in cfg_msg[dec].items():
                 kid=root.kids[int(k)]; nb,info=help_render(kid.data[4:],v['title'],v['body']); kid.data=kid.data[:4]+nb
@@ -275,7 +275,10 @@ def build_kfont(changed,rawfiles,report):
                     if len(k)<=room:
                         nd[p:p+len(k)+1]=k+b'\0'; tot+=1; np_+=1
                     else:
-                        ptr=struct.pack('>I',0x6060000+p); hits=[h.start() for h in re.finditer(re.escape(ptr),bytes(nd)) if h.start()%2==0]
+                        hits=[]
+                        for base in (0x6060000,ent.get('dest') or 0x6060000):
+                            ptr=struct.pack('>I',base+p); hits=[h.start() for h in re.finditer(re.escape(ptr),bytes(nd)) if h.start()%2==0]
+                            if hits: break
                         if not hits: report.append(f'KF no ptr {name} {t.decode("cp932")}'); continue
                         if k not in pooled: pooled[k]=pool_addr+len(pool); pool+=k+b'\0'; pool+=bytes(-len(pool)%2)
                         for h in hits: struct.pack_into('>I',nd,h,pooled[k])

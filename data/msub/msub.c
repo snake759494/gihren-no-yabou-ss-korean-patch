@@ -12,7 +12,7 @@ typedef unsigned char u8; typedef unsigned short u16; typedef unsigned int u32;
 #define VRAM ((volatile u32*)0x25E00000)      /* NBG0 RGB888 movie bitmap, 512 px per row */
 #define Y0 228                                /* bitmap rows 228..239 = bottom black band */
 static int cur=-1; static u32 lastfad, lastframe;
-static void clear(void){ int y,x; for(y=Y0;y<Y0+12;y++) for(x=0;x<352;x++) VRAM[y*512+x]=0; }
+static void clear(void){ int y,x; for(y=Y0;y<Y0+12;y++) for(x=0;x<352;x++) VRAM[y*512+x]=0x80000000; } /* the movie's own black: later screens reuse this VRAM as a name table */
 static void draw(const u16 *gly,const u16 *t){
     int w=0,i,pass,n=(int)D[5];
     for(i=0;t[i]!=0xffff&&i<64;i++) w+=gly[t[i]*11+10];
@@ -39,9 +39,12 @@ void msub(void){
     if(GFSTAG!=0x47465320) return;
     p=GFSPTR; if((p&3)||p<0x06000000||p>=0x06100000) return;
     fad=*(volatile u32*)(p+0x10); frame=FRAME;
+    { const u32 *f=(const u32*)((const u8*)D+D[3]); for(i=0;i<(int)D[2];i++) if(f[i]==fad){ m=i; break; } }
+    /* the same task also runs outside subtitled movies (e.g. the space map), where this VRAM range is
+       a pattern name table: never touch VRAM unless a subtitled movie is playing */
+    if(m<0){ cur=-1; lastfad=fad; lastframe=frame; return; }
     if(fad!=lastfad||frame<lastframe){ clear(); cur=-1; lastfad=fad; }
     lastframe=frame;
-    { const u32 *f=(const u32*)((const u8*)D+D[3]); for(i=0;i<(int)D[2];i++) if(f[i]==fad){ m=i; break; } }
     if(m>=0){ const u16 *s=(const u16*)((const u8*)D+D[4]);
         for(i=0;i<(int)D[1];i++,s+=4) if(s[0]==m && frame>=s[1] && frame<s[2]){ want=i; break; } }
     if(want!=cur){

@@ -7,10 +7,28 @@ _mentry:
 	mov.l	.Lorig,r0
 	jsr	@r0
 	nop
-	mov.l	r0,@-r15
+	mov.l	r0,@-r15		! keep everything the original routine may hand back to its caller
+	mov.l	r1,@-r15
+	mov.l	r2,@-r15
+	mov.l	r3,@-r15
+	mov.l	r4,@-r15
+	mov.l	r5,@-r15
+	mov.l	r6,@-r15
+	mov.l	r7,@-r15
+	sts.l	mach,@-r15
+	sts.l	macl,@-r15
 	mov.l	.Lsub,r1
 	jsr	@r1
 	nop
+	lds.l	@r15+,macl
+	lds.l	@r15+,mach
+	mov.l	@r15+,r7
+	mov.l	@r15+,r6
+	mov.l	@r15+,r5
+	mov.l	@r15+,r4
+	mov.l	@r15+,r3
+	mov.l	@r15+,r2
+	mov.l	@r15+,r1
 	mov.l	@r15+,r0
 	lds.l	@r15+,pr
 	rts
