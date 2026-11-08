@@ -19,8 +19,7 @@ def lz_dec(d,pos,groups,end=None):
     A=d[pos]; B=d[pos+1]; pos+=2
     if B>0:
         fl=(d[pos]<<8)|d[pos+1]; pos+=2
-        for k in range(B-1): pos=item(fl>>k&1,pos)
-        pos+=2
+        for k in range(B): pos=item(fl>>k&1,pos)
     if A: del out[len(out)-A:]
     return out,pos
 def parse(d):
@@ -57,7 +56,6 @@ def lz_dec_b(d,pos,groups,end=None):
     A=d[pos]; B=d[pos+1]; pos+=2
     if B>0:
         fl=(d[pos]<<8)|d[pos+1]; pos+=2
-        for k in range(B-1): pos=item(fl>>k&1,pos)
-        pos+=2
+        for k in range(B): pos=item(fl>>k&1,pos)
     if A: del out[len(out)-A:]
     return out,pos

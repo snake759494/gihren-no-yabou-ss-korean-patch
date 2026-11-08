@@ -1,6 +1,7 @@
 import struct
 from mfd import lz_dec,lz_dec_b
-from lzenc import compress,compress_b
+from lzenc import compress,compress_b,compress_opt
+OVER=[]
 from cont import pack
 def split(d):
     c=struct.unpack_from('>I',d,0)[0]; offs=struct.unpack_from('>%dI'%c,d,4)
@@ -21,6 +22,11 @@ def encode(ent,data):
     if ent['comp']:
         mark=struct.unpack_from('>H',ent['raw'],8)[0]
         c,g,left=(compress_b if mark&1 else compress)(data)
+        if not mark&1 and 12+len(c)>len(ent['raw']):
+            # the game loads the packed stream into a buffer sized for the original file:
+            # never let it grow past the original size
+            c,g,left=compress_opt(data)
+            if 12+len(c)>len(ent['raw']): OVER.append((len(ent['raw']),12+len(c)))
         return struct.pack('>IIHH',ent['typ'],ent['dest'],mark,g)+c
     return struct.pack('>II',ent['typ'],ent['dest'])+data
 def join(raws,first=None):

@@ -68,4 +68,8 @@ class Image:
         s.write_data(ent['dsec'],bytes(sec))
     def set_volume_size(s,n):
         pvd=bytearray(s.read(16)); pvd[80:88]=struct.pack('<I',n)+struct.pack('>I',n); s.write_data(16,bytes(pvd))
-    def save(s,path): open(path,'wb').write(s.b)
+    def save(s,path):
+        # write in 32 MB pieces: one 600 MB WriteFile can stall for a long time when RAM is tight
+        mv=memoryview(s.b)
+        with open(path,'wb') as f:
+            for i in range(0,len(mv),1<<25): f.write(mv[i:i+(1<<25)])

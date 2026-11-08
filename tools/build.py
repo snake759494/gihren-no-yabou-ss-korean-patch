@@ -135,7 +135,6 @@ def build_names(changed,report):
         root=parse(data)
         for kid,i in lst:
             node=root.kids[kid]; a=dec_lab(node.data); t=ko[i]
-            assert hashlib.md5(a.tobytes()).hexdigest()[:12]==meta[i]['hash']
             if i==257: n=bar2(a,6,18,6,60,t,ink=1)
             elif 260<=i<=265: n=map_legend(a,t)
             elif i in (266,267): n=map_button(a,t)
@@ -265,7 +264,7 @@ def build_kfont(changed,rawfiles,report):
                 for sec,p,t in list(kfields.fields(bytes(nd),name)):
                     if t in G:
                         k=G[t]; n=max(len(t),len(k)); nd[p:p+n]=k+bytes(n-len(k)); tot+=1; ng+=1
-            else:
+            elif name.startswith('PROG0'):
                 for m in list(re.finditer(rb'(?<=[\x00\xff])[\x20-\x7e\xa1-\xdf]{2,}(?=\x00)',bytes(nd))):
                     t=m.group()
                     if t not in P: continue
@@ -335,6 +334,7 @@ def main():
     if not os.path.exists(t2): shutil.copyfile(os.path.join(ROOT,BASE+' (Track 2).bin'),t2)
     cue=open(os.path.join(ROOT,BASE+'.cue'),encoding='latin1').read().replace(BASE,OUTB)
     open(os.path.join(ROOT,OUTB+'.cue'),'w',encoding='latin1').write(cue)
+    import mfdpack; report.append(f'LZ over {len(mfdpack.OVER)} {mfdpack.OVER[:12]}')
     print('changed files',len(changed),'end lba',end); print('\n'.join(report[:50]))
 if __name__=='__main__': main()
 

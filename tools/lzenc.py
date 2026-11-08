@@ -82,9 +82,9 @@ def compress(src):
     out = bytearray()
     for k in range(full):
         out += _emit(items[k * 16:(k + 1) * 16])
-    out += bytes([trim, rem + 1 if rem else 0])
+    out += bytes([trim, rem])
     if rem:
-        out += _emit(items[full * 16:]) + PAD2
+        out += _emit(items[full * 16:])
     return bytes(out), full, 0
 
 
@@ -162,7 +162,74 @@ def compress_b(src):
     out = bytearray()
     for k in range(full):
         out += _emit_b(items[k * 16:(k + 1) * 16])
-    out += bytes([trim, rem + 1 if rem else 0])
+    out += bytes([trim, rem])
     if rem:
-        out += _emit_b(items[full * 16:]) + PAD2
+        out += _emit_b(items[full * 16:])
     return bytes(out), full, 0
+
+
+def _items_opt(src, tries=100000):
+    """minimum-item parse (every item costs one flag bit + 2 bytes): DP over the longest match
+    at each position (shorter lengths reuse the same offset), literals and runs. The decoder reads
+    zeros before the start of the output, so a virtual 4095-byte zero prefix is searchable too."""
+    n = len(src); Z = 4095
+    buf = bytes(Z) + src; N = len(buf)
+    head = {}; prev = [-1] * N
+    ml = [0] * n; mo = [0] * n
+    for q in range(N):
+        if q + 3 > N:
+            break
+        k = buf[q:q + 3]
+        if q >= Z:
+            p = q - Z; c = head.get(k, -1); t = 0; bl = 0; bo = 0
+            mx = min(17, n - p)
+            while c >= Z and q - c <= 4095 and t < tries and mx >= 3:
+                l = 3
+                while l < mx and buf[c + l] == buf[q + l]:
+                    l += 1
+                if l > bl:
+                    bl, bo = l, q - c
+                    if bl == mx:
+                        break
+                c = prev[c]; t += 1
+            ml[p], mo[p] = bl, bo
+        prev[q] = head.get(k, -1); head[k] = q
+    run = [0] * (n + 1)
+    for p in range(n - 1, -1, -1):
+        before = src[p - 1] if p > 0 else -1
+        run[p] = run[p + 1] + 1 if src[p] == before else 0
+    INF = 1 << 30
+    f = [INF] * (n + 2); ch = [None] * (n + 1); f[n] = 0
+    for i in range(n - 1, -1, -1):
+        if i + 2 <= n:
+            b = f[i + 2] + 1; c = ('L',)
+        else:
+            b = 1; c = ('L1',)
+        for k in range(3, ml[i] + 1):
+            v = f[i + k] + 1
+            if v < b: b, c = v, ('M', k, mo[i])
+        r = min(run[i], 4098)
+        if r >= 3:
+            for k in range(3, r + 1):
+                v = f[i + k] + 1
+                if v < b: b, c = v, ('R', k)
+        f[i] = b; ch[i] = c
+    items = []; i = 0
+    while i < n:
+        c = ch[i]
+        if c[0] == 'L': items.append(('L', src[i:i + 2])); i += 2
+        elif c[0] == 'L1': items.append(('L', src[i:i + 1] + bytes(1))); i += 1
+        else: items.append(c); i += c[1]
+    return items
+
+
+def compress_opt(src):
+    """same stream layout as compress(), minimum-item parse (slower; used when greedy output
+    would be larger than the original file and overflow the game's load buffer)."""
+    global _items
+    keep = _items
+    try:
+        _items = _items_opt
+        return compress(src)
+    finally:
+        _items = keep

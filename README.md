@@ -6,7 +6,7 @@
 > **게임 데이터는 이 저장소에 없습니다.** 배포물은 원본 디스크에 적용하는 xdelta 바이너리 패치뿐입니다.
 > 본인이 소유한 디스크에서 직접 추출한 이미지가 필요합니다.
 
-현재 최신 릴리스는 **v1.0.1** 입니다. 자세한 내용은 [docs/RELEASE_NOTES_v1.0.1.md](docs/RELEASE_NOTES_v1.0.1.md)에 있습니다.
+현재 최신 릴리스는 **v1.0.2** 입니다. 자세한 내용은 [docs/RELEASE_NOTES_v1.0.2.md](docs/RELEASE_NOTES_v1.0.2.md)에 있습니다.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 방법 1 — 간편 적용 (Windows, 권장)
 
-1. 릴리스에서 `gihren-no-yabou-ss-korean-v1.0.1-easy-apply.zip` 을 받아 압축을 풉니다.
+1. 릴리스에서 `gihren-no-yabou-ss-korean-v1.0.2-easy-apply.zip` 을 받아 압축을 풉니다.
 2. 원본 `.bin` 2개를 압축 푼 폴더에 복사합니다.
 3. **`한글패치 적용하기.bat`** 을 더블클릭합니다.
 4. 원본 검증 → 패치 → 결과 검증이 자동으로 진행됩니다(1~2분).
@@ -74,14 +74,14 @@
 
 ```bash
 xdelta3 -d -s "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 1).bin" \
-        gihren-no-yabou-ss-korean-v1.0.1.xdelta \
-        "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.1 (Track 1).bin"
+        gihren-no-yabou-ss-korean-v1.0.2.xdelta \
+        "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.2 (Track 1).bin"
 ```
 
 그 다음 아래 내용으로 `.cue` 파일을 만듭니다. Track 2 파일명은 실제 파일명과 같아야 합니다.
 
 ```
-FILE "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.1 (Track 1).bin" BINARY
+FILE "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.2 (Track 1).bin" BINARY
   TRACK 01 MODE1/2352
     INDEX 01 00:00:00
 FILE "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 2).bin" BINARY
@@ -92,22 +92,22 @@ FILE "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 2).bin" BINARY
 
 ### 결과 확인값
 
-패치된 Track 1 은 원본보다 **3,179,904 바이트 큽니다.** 한글 그림 글자와 자막 데이터가 늘어 일부 파일을 디스크 뒤쪽으로 옮겼기 때문이며, 정상입니다.
+패치된 Track 1 은 원본보다 **2,415,504 바이트 큽니다.** 한글 그림 글자와 자막 데이터가 늘어 일부 파일을 디스크 뒤쪽으로 옮겼기 때문이며, 정상입니다.
 
-**패치 결과 Track 1 — 618,855,888 바이트**
-
-| 알고리즘 | 값 |
-|---|---|
-| MD5 | `40fe91c743d7c254f560165bdb5275df` |
-| SHA-1 | `fed813fcffbfd6fa091efb42cc7434cffaeac086` |
-| SHA-256 | `831d4a50cdc4eb121fd04595494777bf9ed20426e9cc1b55d8a5c58570fc6dc4` |
-| CRC32 | `E12765FF` |
-
-**패치 파일 `gihren-no-yabou-ss-korean-v1.0.1.xdelta` — 8,387,758 바이트 (무압축)**
+**패치 결과 Track 1 — 618,091,488 바이트**
 
 | 알고리즘 | 값 |
 |---|---|
-| SHA-256 | `7ee1611a76de9315928adc6e3168bf22f689d91e1b4c9b610751e808b49924b9` |
+| MD5 | `4a525d186d921b37bc5c655175df5048` |
+| SHA-1 | `310bc65a67387f2c9b8f295e7ea6736596b87c1d` |
+| SHA-256 | `b0a23ad92421756843bae57240fad47ea03127de0f500ee0de57b3004efeb33d` |
+| CRC32 | `B0D76792` |
+
+**패치 파일 `gihren-no-yabou-ss-korean-v1.0.2.xdelta` — 8,426,496 바이트 (무압축)**
+
+| 알고리즘 | 값 |
+|---|---|
+| SHA-256 | `d5d61dca25e398e19adb2acd920ba2882933e8356f7da46cefc8bf19282db4d8` |
 
 ### 문제 해결
 
