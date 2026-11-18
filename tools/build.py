@@ -209,23 +209,43 @@ def build_mapframe(changed,report):
         nc=mapframe.pack(root.kids,mapframe.apply(img,P),w,h); assert nc<=433,nc
         nd=cbuild(root); ent['new_data']=nd; ent['new']=encode(ent,nd)
     report.append(f'MAPFRAME cells {nc}')
-DOCK=[((21,16,66,30),'도크',12,'center'),((105,16,139,30),'자금',12,'center'),((225,16,259,30),'자원',12,'center'),
-      ((98,36,144,53),'병기명',12,'center'),((158,36,186,53),'기수',12,'center'),((198,36,230,53),'자금',12,'center'),
-      ((262,36,294,53),'자원',12,'center'),((312,36,346,53),'기간',12,'center'),
-      ((23,87,52,102),'차량',12,'center'),((23,104,52,120),'항공',12,'center'),((23,122,52,138),'우주',12,'center'),
-      ((23,141,52,156),'함선',12,'center'),((23,159,52,175),'종료',12,'center')]
+# boxes in true screen pixels (cells decoded with map value n = cell n//2)
+DOCK=[((13,16,58,30),'도크',12,'center'),((97,16,131,30),'자금',12,'center'),((217,16,251,30),'자원',12,'center'),
+      ((90,36,136,53),'병기명',12,'center'),((150,36,178,53),'기수',12,'center'),((190,36,222,53),'자금',12,'center'),
+      ((254,36,286,53),'자원',12,'center'),((304,36,338,53),'기간',12,'center'),
+      ((15,87,44,102),'차량',12,'center'),((15,104,44,120),'항공',12,'center'),((15,122,44,138),'우주',12,'center'),
+      ((15,141,44,156),'함선',12,'center'),((15,159,44,175),'종료',12,'center')]
 def build_dock(changed,report):
     """DATA01 entry0: production-dock NBG frame (8bpp cells + 44x28 map) with baked labels"""
-    import data05,retext
+    import data05,retext; import numpy as np
     name='DATA01.MFD'
     if name not in changed: changed[name]=split(open(os.path.join(W,'disc',name),'rb').read())
     ent=changed[name][0][0]
     d=ent['new_data'] if 'new_data' in ent else decode(ent)
-    root=parse(d); img,w,h,mp=data05.unpack_kids(root.kids); P=data05.palette(root.kids[2].data)
+    root=parse(d); img,w,h,mp=data05.unpack_kids(root.kids,0); P=data05.palette(root.kids[2].data)
     b=struct.pack('>HH',w*8,h*8)+img.tobytes()
+    masks={}
     for box,t,sz,al in DOCK:
-        b,res=retext.retext(b,P,box,t,'NanumSquareNeo-cBd.ttf',sz,align=al,outline=False,shrink_to_fit=True,ink='dark' if box[0]==23 else None)
-    nc=data05.pack_kids(root.kids,res.astype('uint8'),w,h,mp)
+        kw=dict(align=al,outline=False,shrink_to_fit=True,ink='dark' if box[0]==15 else None)
+        if box[0]==15:
+            # text pixels of this menu row = where the label differs from the blank (erased) row
+            _,blank=retext.retext(b,P,box,'','NanumSquareNeo-cBd.ttf',sz,**kw)
+        b,res=retext.retext(b,P,box,t,'NanumSquareNeo-cBd.ttf',sz,**kw)
+        if box[0]==15:
+            Lm=P@np.array([0.3,0.59,0.11],np.float32); masks[t]=(Lm[blank]-Lm[res])>22
+    # the selected row is shown by a green sprite drawn over the baked dark label: kid -> (label, screen y);
+    # x=15 for all. Positions measured by matching the original sprites against the original frame.
+    for k,(t,sy) in {7:('차량',88),8:('항공',104),9:('우주',120),10:('함선',136),11:('종료',160)}.items():
+        kid=root.kids[k]; a=dec_lab(kid.data); sh,sw=a.shape
+        m=masks[t][sy:sy+sh,15:15+sw]
+        o=np.zeros_like(a)
+        ring=np.zeros_like(m)
+        for dy in (-1,0,1):
+            for dx in (-1,0,1): ring|=np.roll(np.roll(m,dy,0),dx,1)
+        o[m]=1                        # green core (palette of kid 4)
+        kid.data=enc_lab(kid.data,o)
+    # keep the original cell numbers: the game draws the dock no./funds into fixed cells
+    nc=data05.pack_kids_keep(root.kids,res.astype('uint8'),w,h,mp,1207,base=0)
     nd=cbuild(root); ent['new_data']=nd; ent['new']=encode(ent,nd)
     report.append(f'DOCK cells {nc}')
 def build_dev(changed,report):

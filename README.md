@@ -6,7 +6,7 @@
 > **게임 데이터는 이 저장소에 없습니다.** 배포물은 원본 디스크에 적용하는 xdelta 바이너리 패치뿐입니다.
 > 본인이 소유한 디스크에서 직접 추출한 이미지가 필요합니다.
 
-현재 최신 릴리스는 **v1.0.2** 입니다. 자세한 내용은 [docs/RELEASE_NOTES_v1.0.2.md](docs/RELEASE_NOTES_v1.0.2.md)에 있습니다.
+현재 최신 릴리스는 **v1.0.3** 입니다. 자세한 내용은 [docs/RELEASE_NOTES_v1.0.3.md](docs/RELEASE_NOTES_v1.0.3.md)에 있습니다.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 방법 1 — 간편 적용 (Windows, 권장)
 
-1. 릴리스에서 `gihren-no-yabou-ss-korean-v1.0.2-easy-apply.zip` 을 받아 압축을 풉니다.
+1. 릴리스에서 `gihren-no-yabou-ss-korean-v1.0.3-easy-apply.zip` 을 받아 압축을 풉니다.
 2. 원본 `.bin` 2개를 압축 푼 폴더에 복사합니다.
 3. **`한글패치 적용하기.bat`** 을 더블클릭합니다.
 4. 원본 검증 → 패치 → 결과 검증이 자동으로 진행됩니다(1~2분).
@@ -74,14 +74,14 @@
 
 ```bash
 xdelta3 -d -s "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 1).bin" \
-        gihren-no-yabou-ss-korean-v1.0.2.xdelta \
-        "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.2 (Track 1).bin"
+        gihren-no-yabou-ss-korean-v1.0.3.xdelta \
+        "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.3 (Track 1).bin"
 ```
 
 그 다음 아래 내용으로 `.cue` 파일을 만듭니다. Track 2 파일명은 실제 파일명과 같아야 합니다.
 
 ```
-FILE "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.2 (Track 1).bin" BINARY
+FILE "Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.3 (Track 1).bin" BINARY
   TRACK 01 MODE1/2352
     INDEX 01 00:00:00
 FILE "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 2).bin" BINARY
@@ -98,16 +98,16 @@ FILE "Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 2).bin" BINARY
 
 | 알고리즘 | 값 |
 |---|---|
-| MD5 | `4a525d186d921b37bc5c655175df5048` |
-| SHA-1 | `310bc65a67387f2c9b8f295e7ea6736596b87c1d` |
-| SHA-256 | `b0a23ad92421756843bae57240fad47ea03127de0f500ee0de57b3004efeb33d` |
-| CRC32 | `B0D76792` |
+| MD5 | `574435cdec1a08dc343d8e09d4d5dca0` |
+| SHA-1 | `cc380ef8509752b7f1ccddd7577af4acb84959f3` |
+| SHA-256 | `d02f0d8e8ee1d4f5b69f93c3cc74c3486dfd84982d9905853ea0886d18caa96e` |
+| CRC32 | `2F705A5D` |
 
-**패치 파일 `gihren-no-yabou-ss-korean-v1.0.2.xdelta` — 8,426,496 바이트 (무압축)**
+**패치 파일 `gihren-no-yabou-ss-korean-v1.0.3.xdelta` — 8,426,997 바이트 (무압축)**
 
 | 알고리즘 | 값 |
 |---|---|
-| SHA-256 | `d5d61dca25e398e19adb2acd920ba2882933e8356f7da46cefc8bf19282db4d8` |
+| SHA-256 | `8da0a21fc268b3edfdca696bf737da6be0eb34c2c585b309a92bae0546f61e55` |
 
 ### 문제 해결
 
