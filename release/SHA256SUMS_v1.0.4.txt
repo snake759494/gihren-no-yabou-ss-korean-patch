@@ -1,0 +1,4 @@
+574bd197817fd0fd9787d42a98bb690a1db2d599b7977aa2657a479385e613e2  gihren-no-yabou-ss-korean-v1.0.4.xdelta
+0eb5aea5593da980490dabfca66f129b5ca971bdf5bd8e0d303432d6fc6c66ef  gihren-no-yabou-ss-korean-v1.0.4-easy-apply.zip
+a27adec617d05787bbf6fd440176b71cc303d2edb40f1b5527bedbf044de7899  원본 Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 1).bin
+b7ec40d877056476ce176ba53ee8d88e7718b162fb9e60c99133f48517d55a48  결과 Kidou Senshi Gundam - Gihren no Yabou (Korean) (Track 1).bin

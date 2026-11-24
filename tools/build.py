@@ -198,6 +198,24 @@ def build_glyph16(changed,report):
     n=parse(d); glyph16.patch(n.kids); nd=cbuild(n)
     ent['new_data']=nd; ent['new']=encode(ent,nd)
     report.append(f'G16 {len(d)}->{len(nd)}')
+    for name in ('PROG01.MFD','PROG03.MFD'):
+        if name not in changed: changed[name]=split(open(os.path.join(W,'disc',name),'rb').read())
+        ent=changed[name][0][0]
+        d=ent['new_data'] if 'new_data' in ent else decode(ent)
+        nd=glyph16.patch_rank(d); ent['new_data']=nd; ent['new']=encode(ent,nd)
+    report.append('RANK glyphs')
+def build_ending(changed,report):
+    """ENDINGxx.MFD entry1: scrolling ending text image (280x960 4bpp)"""
+    import ending
+    K=ending.load(W)
+    for k,paras in sorted(K.items()):
+        name='ENDING%s.MFD'%k
+        if name not in changed: changed[name]=split(open(os.path.join(W,'disc',name),'rb').read())
+        ent=changed[name][0][1]
+        d=ent['new_data'] if 'new_data' in ent else decode(ent)
+        q,n=ending.render(paras); nd=ending.pack(q); assert len(nd)==len(d)
+        ent['new_data']=nd; ent['new']=encode(ent,nd)
+    report.append(f'ENDING {len(K)}')
 def build_mapframe(changed,report):
     import mapframe
     for f in sorted(glob.glob(os.path.join(W,'disc','MAP*_Z*.MFD'))):
@@ -318,7 +336,7 @@ def main():
     ko=load_ko(); report=[]
     src=os.path.join(ROOT,BASE+' (Track 1).bin')
     img=Image(src); dents={e['name']:e for e in img.dir_entries()}
-    parts=os.environ.get('PARTS','scenes,help,ui,names,bram,hekik,mapframe,dock,dev,g16,kfont,msub').split(',')
+    parts=os.environ.get('PARTS','scenes,help,ui,names,bram,hekik,mapframe,dock,dev,g16,ending,kfont,msub').split(',')
     changed=build_scenes(ko,img,None,report) if 'scenes' in parts else {}
     if 'help' in parts: build_help(changed,report)
     if 'ui' in parts: build_ui(changed,report)
@@ -330,6 +348,7 @@ def main():
     rawfiles={}
     if 'dev' in parts: build_dev(changed,report)
     if 'g16' in parts: build_glyph16(changed,report)
+    if 'ending' in parts: build_ending(changed,report)
     if 'kfont' in parts: build_kfont(changed,rawfiles,report)
     end=max(e['lba']+(e['size']+2047)//2048 for e in dents.values())
     end=max(end,img.nsec)

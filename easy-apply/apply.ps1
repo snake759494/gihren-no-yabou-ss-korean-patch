@@ -1,5 +1,5 @@
 ﻿#requires -version 3
-# 기렌의 야망 (SS) 한글패치 v1.0.3 적용 엔진
+# 기렌의 야망 (SS) 한글패치 v1.0.4 적용 엔진
 # 이 스크립트는 "한글패치 적용하기.bat" 이 자동으로 실행합니다.
 # (직접 실행하려면 원본 Track 1 .bin 을 인자로 넘기거나 같은 폴더에 두세요.)
 
@@ -7,14 +7,14 @@ $ErrorActionPreference = 'Stop'
 
 $root   = $PSScriptRoot
 $xdelta = Join-Path $root 'xdelta.exe'
-$patch  = Join-Path $root 'gihren-no-yabou-ss-korean-v1.0.3.xdelta'
+$patch  = Join-Path $root 'gihren-no-yabou-ss-korean-v1.0.4.xdelta'
 
 $T1NAME  = 'Kidou Senshi Gundam - Gihren no Yabou (Japan) (Track 1).bin'
-$OUTNAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.3 (Track 1).bin'
-$CUENAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.3.cue'
+$OUTNAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.4 (Track 1).bin'
+$CUENAME = 'Kidou Senshi Gundam - Gihren no Yabou Korean v1.0.4.cue'
 
 $EXP_SRC   = 'a27adec617d05787bbf6fd440176b71cc303d2edb40f1b5527bedbf044de7899'
-$EXP_OUT   = 'd02f0d8e8ee1d4f5b69f93c3cc74c3486dfd84982d9905853ea0886d18caa96e'
+$EXP_OUT   = 'b7ec40d877056476ce176ba53ee8d88e7718b162fb9e60c99133f48517d55a48'
 $EXP_PATCH = '8da0a21fc268b3edfdca696bf737da6be0eb34c2c585b309a92bae0546f61e55'
 $EXP_TRK2  = 'e0975d00e307925b56cbee433c7844edc90f17fe3cf8bd4057ec4788a858a3ec'
 
@@ -35,12 +35,12 @@ function Fail([string]$msg) {
 try {
     Write-Host ''
     Write-Host '============================================================'
-    Write-Host '   기렌의 야망 (SS) 한글패치 v1.0.3'
+    Write-Host '   기렌의 야망 (SS) 한글패치 v1.0.4'
     Write-Host '============================================================'
     Write-Host ''
 
     if (-not (Test-Path -LiteralPath $xdelta)) { Fail "xdelta.exe 가 없습니다. 압축을 푼 폴더의 파일을 모두 한곳에 두세요." }
-    if (-not (Test-Path -LiteralPath $patch))  { Fail "gihren-no-yabou-ss-korean-v1.0.3.xdelta 가 없습니다." }
+    if (-not (Test-Path -LiteralPath $patch))  { Fail "gihren-no-yabou-ss-korean-v1.0.4.xdelta 가 없습니다." }
 
     # --- 원본 Track 1 찾기: 드래그앤드롭 인자 > 스크립트 폴더 > 현재 폴더 ---
     $src = $null
